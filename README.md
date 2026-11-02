@@ -20,9 +20,9 @@ It reads the treasure pool packet (0x00D2) the server already sends when loot dr
 
 ## Screenshots
 
-![sealtimer showing READY](media/ready.png)
+![sealtimer counting down after a Kindred's Seal drop](media/cooldown.png)
 
-<!-- cooldown screenshot: media/cooldown.png -->
+![sealtimer showing READY](media/ready.png)
 
 ## Download
 
