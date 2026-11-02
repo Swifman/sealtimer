@@ -18,10 +18,24 @@ The addon shows a small window with **READY**, or a countdown and progress bar w
 
 It reads the treasure pool packet (0x00D2) the server already sends when loot drops. Seals that were already in the pool when you zoned in, and seals from chests or boxes, are ignored. **It sends nothing to the server.**
 
+## Screenshots
+
+![sealtimer counting down after a seal drop](media/cooldown.png)
+
+![sealtimer showing READY](media/ready.png)
+
+## Download
+
+Get **sealtimer.zip** from the [Releases page](https://github.com/Swifman/sealtimer/releases/latest).
+
 ## Install
 
-1. Copy the `sealtimer` folder into `Ashita/addons/`.
+1. Unzip it so the folder sits at `Ashita/addons/sealtimer/sealtimer.lua`.
 2. In game: `/addon load sealtimer`
+
+## Source
+
+The whole addon is one plain Lua file, `sealtimer.lua`. There are no DLLs, binaries or other compiled parts, and it uses only Ashita v4's built-in libraries (`imgui`, `settings`, `chat`).
 
 ## Commands (`/sealtimer` or `/st`)
 
