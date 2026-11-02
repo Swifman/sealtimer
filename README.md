@@ -20,9 +20,9 @@ It reads the treasure pool packet (0x00D2) the server already sends when loot dr
 
 ## Screenshots
 
-![sealtimer counting down after a seal drop](media/cooldown.png)
-
 ![sealtimer showing READY](media/ready.png)
+
+<!-- cooldown screenshot: media/cooldown.png -->
 
 ## Download
 
